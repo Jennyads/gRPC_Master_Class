@@ -1,3 +1,11 @@
+Comandos:
+
+````
+make greet
+protoc -Igreet/proto --go_out=. --go_opt=module=github.com/Jennyads/gRPC_Master_Class --go-grpc_out=. --go-grpc_opt=module=github.com/Jennyads/gRPC_Master_Class greet/proto/dummy.proto
+````
+
+
 <h2>gRPC</h2>
 o gRPC é uma poderosa ferramenta para o desenvolvimento de sistemas distribuídos, oferecendo uma maneira eficiente e flexível de comunicar-se entre serviços, independentemente das linguagens de programação ou plataformas envolvidas. Ele é amplamente utilizado em aplicações modernas, desde microserviços até grandes infraestruturas de computação em nuvem.
 HTTP/2 é uma versão do protocolo HTTP que traz diversas melhorias em relação ao HTTP/1. Uma das principais mudanças é a introdução de uma conexão TCP única, que pode ser compartilhada por várias solicitações e respostas, ao contrário do HTTP/1, que estabelece uma nova conexão TCP para cada requisição e resposta. Isso resulta em uma redução significativa da sobrecarga de conexão e, consequentemente, uma melhoria no desempenho.
