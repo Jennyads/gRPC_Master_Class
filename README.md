@@ -1,6 +1,8 @@
 Comandos:
 
 ````
+na pasta ssl rodar:  chmod +x ssl.sh
+depois: ./ssl.sh
 make greet
 protoc -Igreet/proto --go_out=. --go_opt=module=github.com/Jennyads/gRPC_Master_Class --go-grpc_out=. --go-grpc_opt=module=github.com/Jennyads/gRPC_Master_Class greet/proto/dummy.proto
 ````
